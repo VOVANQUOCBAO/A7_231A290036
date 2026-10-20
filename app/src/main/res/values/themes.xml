@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.A7Permission" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.A7Permission" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Default theme items can be customized here if needed -->
     </style>
 </resources>

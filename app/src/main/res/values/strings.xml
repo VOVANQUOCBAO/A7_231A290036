@@ -27,4 +27,7 @@
     <string name="denied">CHƯA CẤP</string>
     <string name="status_format">Quyền CAMERA: %1$s\nQuyền THÔNG BÁO: %2$s</string>
     <string name="status_photo">Ảnh xem trước: %1$d x %2$d pixel</string>
+<string name="camera_denied">Đã từ chối camera. Bạn vẫn có thể dùng các chức năng khác.</string>
+<string name="camera_unavailable">Thiết bị không có ứng dụng camera phù hợp hoặc quyền đã bị thu hồi.</string>
+<string name="settings_unavailable">Không mở được trang Cài đặt ứng dụng.</string>
 </resources>
