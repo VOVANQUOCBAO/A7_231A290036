@@ -1,8 +1,0 @@
-{
-  "android_api": "36",
-  "device": "sdk_gphone64_x86_64",
-  "mode": "bad_registration",
-  "duration_seconds": 6.69,
-  "passed": true,
-  "pass_count": 1
-}
