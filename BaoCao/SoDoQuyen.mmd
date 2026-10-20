@@ -1,0 +1,14 @@
+flowchart TD
+  A[Bấm Chụp ảnh] --> B{Đã có quyền?}
+  B -- Có --> C[Mở camera và nhận Bitmap]
+  B -- Không --> D{Cần giải thích?}
+  D -- Có --> E[Giải thích: Đồng ý hoặc Để sau]
+  E -- Đồng ý --> F[RequestPermission.launch]
+  D -- Không --> F
+  F --> G{Được cấp?}
+  G -- Có --> C
+  G -- Không --> H{Còn hỏi lại được?}
+  H -- Có --> I[Báo từ chối, đợi lần bấm tiếp]
+  H -- Không --> J[Mời mở Cài đặt]
+  J --> K[Bật quyền và quay về app]
+  K --> L[onResume cập nhật trạng thái]

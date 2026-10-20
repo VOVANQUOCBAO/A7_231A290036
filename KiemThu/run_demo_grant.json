@@ -1,0 +1,8 @@
+{
+  "android_api": "36",
+  "device": "sdk_gphone64_x86_64",
+  "mode": "demo_grant",
+  "duration_seconds": 15.48,
+  "passed": true,
+  "pass_count": 3
+}

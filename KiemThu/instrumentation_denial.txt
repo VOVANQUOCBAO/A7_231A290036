@@ -1,0 +1,20 @@
+INSTRUMENTATION_STATUS: stream=PASS | A7-T03: first denial shows rationale before asking again
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=PASS | A7-T04: second denial offers settings
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=PASS | A7-T04: repeat blocked request shows app settings prompt
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=PASS | A7-T05: onResume reflects Settings grant
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+PASS | A7-T03: first denial shows rationale before asking again
+PASS | A7-T04: second denial offers settings
+PASS | A7-T04: repeat blocked request shows app settings prompt
+PASS | A7-T05: onResume reflects Settings grant
+ALL PASSED
+
+INSTRUMENTATION_CODE: -1

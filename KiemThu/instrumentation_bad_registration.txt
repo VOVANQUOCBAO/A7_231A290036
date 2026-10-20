@@ -1,0 +1,8 @@
+INSTRUMENTATION_STATUS: stream=PASS | A7-analysis: registration while RESUMED throws
+
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+PASS | A7-analysis: registration while RESUMED throws
+ALL PASSED
+
+INSTRUMENTATION_CODE: -1
